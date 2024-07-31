@@ -4,7 +4,7 @@
 using namespace std;
 // this function displays a menu, i can add to this stuff later if i want to.
 void displayMenu() {
-	cout << "funny C++ re-visitation center for rehabilitation" "\n";
+	cout << R"(  )" << "\n";
 	cout << "1. FiboGen" "\n";
 	cout << "2. BasiCal" "\n";
 	cout << "3. Amogus" "\n";

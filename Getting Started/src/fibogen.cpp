@@ -7,10 +7,9 @@ void fibogen() {
 
 	uint64_t number, term1 = 0, term2 = 1, nextTerm = 0;
 
-	cout << "pls choose the number of terms you want: ""\n";
+	cout << "pls choose the number of terms you want: \n";
 	cin >> number; 
-	cout << "mama mo fibonacci: "; 
-	cout << "mama mo fibonacci: "; 
+	cout << "mama mo fibonacci: ";
 
 	for (uint64_t iterations = 1; iterations <= number; iterations++) {
 		
