@@ -1,15 +1,18 @@
 #include <iostream>
 #include "fibogen.h"
+#include <stdint.h>
 using namespace std;
 
 void fibogen() {
-	int number, term1 = 0, term2 = 1, nextTerm = 0;
+
+	uint64_t number, term1 = 0, term2 = 1, nextTerm = 0;
 
 	cout << "pls choose the number of terms you want: ""\n";
 	cin >> number; 
 	cout << "mama mo fibonacci: "; 
+	cout << "mama mo fibonacci: "; 
 
-	for (int iterations = 1; iterations <= number; iterations++) {
+	for (uint64_t iterations = 1; iterations <= number; iterations++) {
 		
 		if (iterations == 1) {
 			cout << term1 << ", ";

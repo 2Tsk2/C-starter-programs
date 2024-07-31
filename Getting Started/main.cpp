@@ -1,7 +1,9 @@
 #include <iostream>
-#include "menu.h"
 #include <cstdlib>
+#include <stdint.h>
+#include "menu.h"
 #include "fibogen.h"
+
 using namespace std;
 
 
